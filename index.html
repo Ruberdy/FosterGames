@@ -1,204 +1,306 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FosterGames.com</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FosterGames</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header class="hero">
-        <nav class="nav__hero">
-            <div class="container nav__container">
-                <div class="logo">
-                    <h2 class="logo__name">Foster Games<span class="point">.</span></h2>
-                </div>
-                <div class="links">
-                    <a href="info.html" class="link">Notas</a>
-                    <a href="#" class="link">Servicios</a>
-                    <a href="#" class="link">Proyectos</a>
-                    <a href="#" class="link">Clientes</a>
-                    <a href="#" class="link link--active">Inicio</a>
-                </div>
-            </div>
-        </nav>
 
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
 
-        <section class="container hero__main">  
-            <div class="hero__textos">
-                <h1 class="title">ALPHA <span class="title--active">Dark and the hidden ether</span></h1> 
-                <p class="copy">MMORPG 2D <span class="copy__active">Prueba el juego gratis ahora</span></p>
-                <a href="#" class="cta">PC download</a> <a href="https://mega.nz/file/cB51lAxL#5Rrtr1_y4E1qholabSaIJL4P-z3vJ6kpXc8sFMhcb_E" class="cta">Android download</a>
-                <a href="https://mega.nz/file/cB51lAxL#5Rrtr1_y4E1qholabSaIJL4P-z3vJ6kpXc8sFMhcb_E" class="cta">IOS download</a>
-            </div>
-            <img src="img/mockup.png" class="mockup">
-        </section>
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/brand.png" alt="TechNews Logo" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="#">Descargar</a>
+        </li>
+        <li>
+          <a href="#">Actualizaciones</a>
+        </li>
+        <li>
+          <a href="#">Notas de parches</a>
+        </li>
+        <li>
+          <a href="#">Updates</a>
+        </li>
+        <li>
+          <a href="#">Cupon codes</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+        <li>
+          <a href="#">Discord grup</a>
+        </li>
+        <li>
+          <a href="#">More</a>
+        </li>
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- SHOWCASE -->
+    <header class="showcase">
+      <h2>Dark and the hidden ether</h2>
+      <p>Ya puedes descargar el juego gratis en su face de desarrollo alpha, disponible para Windows Y mac
+        El juego resivira Actualizaciones todos los 20 de cada mes, ya que el juego aun esta en desarrollo prematuro
+        en face inicial</p>
+      <a href="#" class="btn">
+        Descargar Windows <i class="fas fa-chevron-right"></i>
+      </a>
+      
     </header>
 
-    <main>
-        <section class="services">
-            <div class="container">
-                <h2 class="subtitle">Funciones en desarrollo<span class="point">.</span></h2>
-                <p class="copy__section">Los proximos sistemas que estan en desarrollo para el juego, que seran implementados</p>
+    <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div>
+        <img src="img/news1.jpg" alt="" />
+        <h3>Parche 0.2.2.</h3>
+        <p>Se ha lanzado un parche para solucionar algunos errores dentro del juego, y otras mejoras tecnicas y grandes
+          cambios graficos, y agregados varios efectos de particulas, y se ha mejorado el rendimiento y FPS mas estables.
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news2.jpg" alt="" />
+        <h3>Alpha open.</h3>
+        <p>Ya puedes descargar el juego en su face alpha, y darnos tu opinion hacerca de este proyecto en el cual estamos
+          trabajando, en esta version de desarrollo se han corregido muchos errores y optimizado para su lanzamiento 
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news3.jpg" alt="" />
+        <h3>Android and IOS.</h3>
+        <p>Dark and the hidden ether, no estara disponible para android y ios, debido a una serie de errores que fueron
+          reportados debido al parche 0.2.2, que debia solucionar algunos errores en android y ios causo muchos ploblemas.
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news4.jpg" alt="" />
+        <h3>Updates.</h3>
+        <p>Consurta la lista de mejoras, para tener mas informacion aserca de los cambios hechos en el juego para un
+          mejor rendimiento, asi como las mejoras que muy pronto seran implementadas una vez esten listas.
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
 
-                <article class="container-cards">
-                    <div class="card">
-                        <img src="img/image2.jpg" class="card__img">
-                        <div class="cards__text">
-                            <p class="card__list">Modo multiplayer UX / UI</p>
-                            <h3 class="card__title">En desarrollo<span class="point">.</span></h3>
-                            <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorum sit molestias ipsam at veritatis ut esse eius, dolor est!</p>
-                            <a href="#" class="card__button">Informacion</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/image1.jpg" class="card__img">
-                        <div class="cards__text">
-                            <p class="card__list">Sistema de logros UX / UI</p>
-                            <h3 class="card__title">En desarrollo<span class="point">.</span></h3>
-                            <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorum sit molestias ipsam at veritatis ut esse eius, dolor est!</p>
-                            <a href="#" class="card__button">Informacion</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/image3.jpg" class="card__img">
-                        <div class="cards__text">
-                            <p class="card__list">Eventos diarios UX / UI</p>
-                            <h3 class="card__title">En desarrollo<span class="point">.</span></h3>
-                            <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorum sit molestias ipsam at veritatis ut esse eius, dolor est!</p>
-                            <a href="#" class="card__button">Informacion</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="projects container">
-            <h2 class="subtitle">Actualizaciones recientes<span class="point">.</span></h2>
-            <p class="copy__section">Actualizaciones recientes y mejoras</p>
-            <article class="container-bg">
-                <div class="card">
-                    <div class="cards__text">
-                        <h3 class="card__title">Alpha open<span class="point">.</span></h3>
-                        <p class="card__date">29 de enero 2022</p>
-                        <p class="card__copy">Dark and the hidden ether, ya esta disponible en su face alpha, disponible para Windows Android y ISO</p>
-                        <a href="#" class="card__button">Descargar juego</a>
-                    </div>
-                </div>
-                <div class="background">
-                    <img src="img/background1.jpg" class="background__img">
-                    <div class="background__text">
-                        <h3 class="background__title">ALPHA VERSION OPEN</h3>
-                        <p class="background__copy">Ya el juego esta disponible para: Windows, Android, IOS</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cards__text">
-                        <h3 class="card__title">Parche disponible<span class="point">.</span></h3>
-                        <p class="card__date">10 de febrero 2022</p>
-                        <p class="card__copy">Hemos lanzado un Parche para solucionar algunos errores en Android y IOS, lo cual ahora el juego correra mas fluido</p>
-                        <a href="info.html" class="card__button">Descargar Parche</a>
-                    </div>
-                </div>
-                <div class="background">
-                    <img src="img/background2.jpg" class="background__img">
-                    <div class="background__text">
-                        <h3 class="background__title">Parche 0.2.2</h3>
-                        <p class="background__copy">Mas FPS en android y IOS, y correccion de mayoria de errores, y grandes cambios graficos disponibles</p>
-                    </div>
-                </div>
-            </article>
-        </section>
+    <!-- Card Banner 1-->
+    <section class="cards-banner-one">
+      <div class="content">
+        <h2>Dark and the hidden ether.</h2>
+        <!-- lorem 20 -->
+        <p>Dark and the hidden ether, ya esta disponible para Windows y Mac<br>
+          ¡Por el momento no estara disponible en Android y IOS, hasta nuevo aviso!</p>
+        <a href="#" class="btn">Leer mas<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
 
+    <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div>
+        <img src="img/cgmz_achievements.png" alt="" />
+        <h3>Sistema de logros.</h3>
+        <p>El sistema de logros creado por Casper Gaming, puede admitir muchas funciones novedosas que permiriran que
+          el juego cuente con un novedoso sistema de logros y recompenzas con seguimiento en tiempo real.
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/cgmz-encyclopedia-2.png" alt="" />
+        <h3>Enciclopedia.</h3>
+        <p>Gracias a Casper Gaming, que ha diseñado un complementa que permitira guardar todos los datos del juego como
+          odgetos, bestias, enemigos, personajes, entre muchas cosas mas, ya esta disponible y listo para implementarse
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/multiplayer.jpg" alt="" />
+        <h3>Multiplayer mode.</h3>
+        <p>Gracias a Pheonix KageDesu, y uno de sus complementos el juego tendra un modo Multiplayer de dos jugadores
+          Los cuales podran realizar misiones juntos, este sistema admite coneccion a internet y por bluetooth
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/cgmz_holidays.png" alt="" />
+        <h3>Eventos diarios.</h3>
+        <p>Se esta trabajando en un sistema de eventos diarios que sera implementado dentro del juego, con eventos
+          con hora de inicio y hora limite, cuyos horarios se publicaran una vez el sistema este listo he implementado
+        </p>
+        <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
 
-        <section class="email container container--modifier">
-            <h2 class="subtitle subtitle--modifier">Requisitos minimos para el Sistema operativo Android<span class="point">.</span></h2>
+    <!-- third card -->
+    <section class="cards-banner-two">
+      <div class="content">
+        <h2>Dark and the hidden ether Usando el motor grafico RPG maker mz,.</h2>
+        <!-- lorem 30 -->
+        <p>El juego esta siendo desarrollado con el motor grafico rg maker 2020, pero con la serie rpg maker hoy en dia se ha anunciado un nuevo engine
+          (RPG MAKER UNITE) una vez este disponible dark and the hidden ether se actualizara a este nuevo motor grafico, para ofreser una mejor experiencia
+          grafica, ya que el nuevo motor grafico esta complementado en {UNITY engine}..</p>
+        <a href="https://store.steampowered.com/app/1650950/RPG_Maker_Unite/" class="btn">Leer mas <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
 
-            <p class="copy__section copy__section--modifier">Para correr perfectamente el juego, debes cumplir con los requisitos minimos</p>
+    <!-- Follow -->
+    <section class="social">
+      <p>Follow FosterGames</p>
+      <div class="links">
+        <a href="https://facebook.com">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkdin.com">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+  </div>
 
-            <div class="check">
-                <div class="check__item">
-                    <i class='bx bx-check' ></i>
-                    <div class="check__numbers">
-                        <p class="check__number">Soporte WebGL</p>
-                        <p class="check__copy">Obligatorio</p>
-                    </div>
-                </div>
-                <div class="check__item">
-                    <i class='bx bx-check' ></i>
-                    <div class="check__numbers">
-                        <p class="check__number">1GB RAM</p>
-                        <p class="check__copy">Requisito Minimo</p>
-                    </div>
-                </div>
-                <div class="check__item">
-                    <i class='bx bx-check' ></i>
-                    <div class="check__numbers">
-                        <p class="check__number">150Mb almacenamiento</p>
-                        <p class="check__copy">Minimo</p>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-    </main>
+  <!-- Footer Links -->
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title One</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Two</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Three</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Four</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-    <footer class="footer">
-        <div class="container footer__caption">
-            <section class="download">
-                <h3 class="title__footer">Descarga nuestra App</h3>
-                <div class="download__app">
-                    <div class="download__item">
-                        <i class='bx bxl-apple download__logo' ></i>
-                        <h4 class="download__title">App Store</h4>
-                    </div>
-                    <div class="download__item">
-                        <i class='bx bxl-play-store download__logo' ></i>
-                        <h4 class="download__title">Play Store</h4>
-                    </div>
-                </div>
-                <div class="footer__copy">
-                    <p class="copyright">FosterGames &copy; 2022 Todos los derechos reservados</p>
-    
-                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
-                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
-                </div>
-            </section>
-            <section class="get-email">
-                <h3 class="title__footer">¿Estás experimentando un error?</h3>
-                <form class="newsletter newsletter--modifier">
-                    <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
-                    <input type="submit" class="newsletter__submit" value="Comienza hoy">
-                </form>
-                <div class="socialmedia">
-                    <p class="socialmedia__legend">Siguenos en:</p>
-                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>
-                    <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
-                    <i class='socialmedia__icon bx bxl-twitter' ></i>   
-                    <i class='socialmedia__icon bx bxl-instagram' ></i>
-                    <i class='socialmedia__icon bx bxl-github' ></i>  
-                </div>
-            </section>
-        </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>FosterGames Copyright</h3>
+  </footer>
 
-        <div class="contact">
-            <div class="item__contact">
-                <i class='bx bx-copyright contact__icon' ></i>
-                <h3 class="contact__title">Ruberdy Foster</h3>
-            </div>
-            <div class="item__contact">
-                <i class='bx bx-mail-send contact__icon' ></i>
-                <h3 class="contact__title">Elaneyfoster@gmail.com</h3>
-            </div>
-            <div class="item__contact">
-                <i class='bx bxs-edit-location contact__icon' ></i>
-                <h3 class="contact__title">Paseos de la reforma</h3>
-            </div>
-            <div class="item__contact item__contact--gold">
-                <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
-                <h3 class="contact__title">Contactanos ahora</h3>
-            </div>
-        </div>
-    </footer>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
