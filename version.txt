@@ -1,4 +1,3 @@
-1.0.0
-1.1.0
-1.2.1
-1.3.2
+1.0.0=https://www.dropbox.com/scl/fi/zxyn3esnody07azdwa3q6/update_1.1.0.zip?rlkey=zp2bb6ms1jzc6zvb1qlw24871&st=z2yq2bko&dl=1
+1.1.0=https://www.dropbox.com/scl/fi/zxyn3esnody07azdwa3q6/update_1.1.0.zip?rlkey=zp2bb6ms1jzc6zvb1qlw24871&st=z2yq2bko&dl=1
+2.0.0=https://www.dropbox.com/scl/fi/zxyn3esnody07azdwa3q6/update_1.1.0.zip?rlkey=zp2bb6ms1jzc6zvb1qlw24871&st=z2yq2bko&dl=1
