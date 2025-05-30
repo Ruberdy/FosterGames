@@ -2,23 +2,10 @@
 - Nuevo jefe en el Bosque Maldito.
 - Se mejoró el rendimiento general.
 - Corrección de errores en el sistema de inventario.
-- Este texto solo es de prueba.
 
 Mantenimiento programado:
-El servidor estará en mantenimiento el 25 de abril desde las 2:00 AM hasta las 4:00 AM (hora local).
+El servidor estará en mantenimiento el 25 de julio desde las 2:00 AM hasta las 4:00 AM (hora local).
 
 ¡Gracias por jugar Launchesa RPG!
 que te guste mi software.
-
-
-¡Actualización v1.1.4 disponible!
-- Nuevo jefe en el Bosque Maldito.
-- Se mejoró el rendimiento general.
-- Corrección de errores en el sistema de inventario.
-- Este texto solo es de prueba.
-
-Mantenimiento programado:
-El servidor estará en mantenimiento el 25 de abril desde las 2:00 AM hasta las 4:00 AM (hora local).
-
-¡Gracias por jugar Launchesa RPG!
-que te guste mi software.
+©Ruberdy foster-FosterGames
