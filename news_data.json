@@ -1,11 +1,20 @@
 {
     "news": [
         {
-            "title": "NUEVA EXPANSI\u00d3N: REINOS PERDIDOS",
+            "title": "Nueva Expansión: Reinos Perdidos",
             "date": "17/07/2025",
             "content": "Los portales a los Reinos Perdidos se han abierto. Explora nuevas tierras y descubre tesoros ancestrales.",
-            "category": "Expansi\u00f3n",
-            "image": ""
+            "category": "Expansión",
+            "image_url": "https://raw.githubusercontent.com/Ruberdy/FosterGames/main/images/reinos_perdidos.jpg",
+            "author": "Equipo RPG"
+        },
+        {
+            "title": "Torneo Épico Anunciado",
+            "date": "17/07/2025",
+            "content": "Prepárate para el Torneo Real este fin de semana. ¡Demuestra tu valía!",
+            "category": "Evento",
+            "image_url": "https://raw.githubusercontent.com/Ruberdy/FosterGames/main/images/torneo_real.jpg",
+            "author": "Maestro de Torneos"
         }
     ]
 }
