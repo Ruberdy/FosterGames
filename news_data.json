@@ -1,19 +1,25 @@
 {
     "news": [
         {
+            "id": 1,
             "title": "Nueva Expansión: Reinos Perdidos",
             "date": "17/07/2025",
             "content": "Los portales a los Reinos Perdidos se han abierto. Explora nuevas tierras y descubre tesoros ancestrales.",
+            "full_content": "¡Bienvenidos a la nueva expansión 'Reinos Perdidos'! Los portales mágicos se han abierto, revelando tierras olvidadas llenas de misterios, enemigos épicos y tesoros ancestrales. Esta expansión introduce nuevas misiones, personajes jugables y un sistema de gremios mejorado. ¡Prepárate para explorar mazmorras ocultas y enfrentarte a dragones legendarios! Descarga la actualización ahora y únete a la aventura.",
             "category": "Expansión",
-            "image_url": "https://img.freepik.com/vector-gratis/ilustracion-concepto-abstracto-mmorpg_335657-1858.jpg",
+            "image_url": "https://raw.githubusercontent.com/Ruberdy/FosterGames/main/images/reinos_perdidos.jpg",
+            "cover_image_url": "https://raw.githubusercontent.com/Ruberdy/FosterGames/main/images/reinos_perdidos_cover.jpg",
             "author": "Equipo RPG"
         },
         {
+            "id": 2,
             "title": "Torneo Épico Anunciado",
             "date": "17/07/2025",
             "content": "Prepárate para el Torneo Real este fin de semana. ¡Demuestra tu valía!",
+            "full_content": "El Torneo Real está a punto de comenzar. Este fin de semana, los mejores guerreros del reino competirán por la gloria y premios exclusivos. Participa en batallas épicas, completa desafíos únicos y gana recompensas como armas legendarias y títulos honoríficos. El evento estará disponible desde el viernes a las 18:00 hasta el domingo a medianoche. ¡No te lo pierdas!",
             "category": "Evento",
-            "image_url": "https://img.freepik.com/vector-gratis/ilustracion-concepto-abstracto-mmorpg_335657-1858.jpg",
+            "image_url": "https://raw.githubusercontent.com/Ruberdy/FosterGames/main/images/torneo_real.jpg",
+            "cover_image_url": "https://raw.githubusercontent.com/Ruberdy/FosterGames/main/images/torneo_real_cover.jpg",
             "author": "Maestro de Torneos"
         }
     ]
