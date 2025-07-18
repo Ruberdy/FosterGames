@@ -20,13 +20,6 @@
             "color": "#8b5cf6",
             "icon": "moon",
             "description": "Celebra bajo las estrellas"
-        },
-        {
-            "title": "MISIÓN SECRETA",
-            "date": "Próximamente",
-            "color": "#10b981",
-            "icon": "quest",
-            "description": "Descubre el misterio"
         }
     ]
 }
