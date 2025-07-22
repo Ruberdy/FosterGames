@@ -20,6 +20,13 @@
             "color": "#8b5cf6",
             "icon": "moon",
             "description": "Celebra bajo las estrellas"
+        },
+        {
+            "title": "FESTIVAL SOL NEGRO",
+            "date": "Mañana",
+            "color": "#8b5cf6",
+            "icon": "moon",
+            "description": "Celebra bajo las estrellas"
         }
     ]
 }
