@@ -21,6 +21,28 @@
             "image_url": "https://s1.pearlcdn.com/NAEU/Upload/thumbnail/2025/N9RB54YRPRYRXOSE20250717112953653.400x225.jpg",
             "cover_image_url": "https://s1.pearlcdn.com/NAEU/Upload/thumbnail/2025/N9RB54YRPRYRXOSE20250717112953653.400x225.jpg",
             "author": "Cronista del Reino"
+        },
+        {
+            "id": 3,
+            "title": "El Secreto del Río",
+            "date": "17/07/2025",
+            "content": "Descubre el misterio oculto en las aguas del Río Azul.",
+            "full_content": "En 'El Secreto del Río', explora las corrientes del Río Azul para desentrañar un enigma antiguo. Encuentra pistas, enfrenta criaturas acuáticas y resuelve acertijos para obtener la recompensa: un amuleto de agua y 300 puntos de experiencia. ¡Aventúrate con cautela!",
+            "category": "Secundaria",
+            "image_url": "https://s1.pearlcdn.com/NAEU/Upload/thumbnail/2025/N9RB54YRPRYRXOSE20250717112953653.400x225.jpg",
+            "cover_image_url": "https://s1.pearlcdn.com/NAEU/Upload/thumbnail/2025/N9RB54YRPRYRXOSE20250717112953653.400x225.jpg",
+            "author": "Cronista del Reino"
+        },
+        {
+            "id": 4,
+            "title": "El Secreto del Río",
+            "date": "17/07/2025",
+            "content": "Descubre el misterio oculto en las aguas del Río Azul.",
+            "full_content": "En 'El Secreto del Río', explora las corrientes del Río Azul para desentrañar un enigma antiguo. Encuentra pistas, enfrenta criaturas acuáticas y resuelve acertijos para obtener la recompensa: un amuleto de agua y 300 puntos de experiencia. ¡Aventúrate con cautela!",
+            "category": "Secundaria",
+            "image_url": "https://s1.pearlcdn.com/NAEU/Upload/thumbnail/2025/N9RB54YRPRYRXOSE20250717112953653.400x225.jpg",
+            "cover_image_url": "https://s1.pearlcdn.com/NAEU/Upload/thumbnail/2025/N9RB54YRPRYRXOSE20250717112953653.400x225.jpg",
+            "author": "Cronista del Reino"
         }
     ]
 }
